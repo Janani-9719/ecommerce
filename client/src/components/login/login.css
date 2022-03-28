@@ -1,0 +1,41 @@
+/* Made with love by Mutiullah Samim*/
+.bodyLog {
+  background-color: #4682b4;
+  padding: 0% 0% 5% 2%;
+}
+.login_back {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQisa2C6ooIVCzAHLhtlNeek4Mg3Q4jVlXpg&usqp=CAU");
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  /* height: 70vh; */
+  width: 80vh;
+  background-size: 100% 100%;
+  border: 5px solid black;
+}
+.main-wrap {
+  margin: 0% 5%;
+  min-height: 100vh;
+}
+
+.Lognav {
+  padding: 2%;
+}
+
+.form {
+  padding: 0% 5%;
+}
+
+.logo {
+  width: auto;
+  height: 15vh;
+
+  margin-left: 40%;
+}
+
+@media screen and (max-width: 960px) {
+  .login_back {
+    display: none;
+  }
+  .form {
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: white;
+  /* background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+}
+.mainDiv {
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+  height: 95vh;
+  width: 95vw;
+}
+.main {
+  margin-top: 10vh;
+  height: 65vh;
+  width: 80vw;
+  margin-left: 5vw;
+  background-image: url("https://www.hostgator.com/blog/wp-content/uploads/2020/01/Easy-Order-and-shipment-tracking-tools-for-customers.jpg");
+  /* background-color: #1e90ff; */
+  background-repeat: no-repeat;
+  /* background-color: #1e90ff; */
+  /* background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+
+  border: 5px solid rgb(197, 191, 191);
+}
+.topic {
+  padding-top: 2vh;
+  margin-top: 4vh;
+  /* margin-left: 10vw; */
+}
+h1 {
+  text-align: center;
+  /* margin: 5%; */
+  display: block;
+  font-size: 2em;
+  margin-top: 5%;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.btn_group {
+  width: 50%;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-select {
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  opacity: 0.7;
+  margin: 2.5%;
+}
+
+.btn-select:hover {
+  opacity: 1;
+  color: rgb(176, 161, 226);
+  transform: scale(1.2);
+}

@@ -1,0 +1,109 @@
+.tracking {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(46, 140, 223);
+}
+
+.title1 {
+  margin-left: 2vw;
+  margin-top: 1vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+.textID {
+  padding-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+.orderID {
+  padding: 10px;
+  width: 80vw;
+}
+.enterButton {
+  margin-top: 5vh;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.trackingDIV {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 70vw;
+  background-color: rgb(29, 54, 77);
+}
+
+.prograssDiv {
+  margin: 3vw 2vh;
+}
+.detailsDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  height: 55vh;
+  width: 60vw;
+  background-color: rgb(29, 54, 77);
+}
+.labels {
+  padding: 2px;
+  font-size: 1.3vw;
+  font-family: "Rubik", sans-serif;
+}
+.labelDiv1 {
+  padding: 0px;
+  margin-left: 0%;
+  font-family: "Rubik", sans-serif;
+}
+.request_label {
+  margin-left: 17vw;
+}
+.divs {
+  padding-bottom: 2vw;
+  align-items: center;
+  align-content: center;
+}
+#descLabel {
+  font-family: "Rubik", sans-serif;
+  padding-left: 2vw;
+  font-size: 1.2vw;
+}
+#check-out-btn {
+  margin-top: 5vw;
+  align-content: center;
+  width: 100%;
+}
+.prograss-btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(46, 140, 223);
+  padding: 5px;
+  color: white;
+}
+/*-------------------details-------------------------------*/
+.orderDetailsDiv {
+  width: 80vw;
+  margin-top: 3vh;
+  background-color: aliceblue;
+  padding: 15px;
+}
+.map {
+  height: 400px;
+  width: 100%;
+}
